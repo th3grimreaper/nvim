@@ -1,5 +1,5 @@
 # nvim
-Updated neovim configuration using native LSP.
+Updated neovim configuration using native LSP.  
 **Plugins Included:**
 ```
 packer
