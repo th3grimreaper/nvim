@@ -10,3 +10,8 @@ set.cursorline = true
 set.cursorcolumn = true
 set.swapfile = false
 set.hlsearch = false
+
+--vinegar hide dot files
+vim.cmd [[
+  let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+'
+]]
