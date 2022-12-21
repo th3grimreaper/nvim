@@ -44,15 +44,7 @@ return packer.startup(function(use)
   use 'p00f/nvim-ts-rainbow'
 
   --surround
-  use({
-    "kylechui/nvim-surround",
-    tag = "*", -- Use for stability; omit to use `main` branch for the latest features
-    config = function()
-      require("nvim-surround").setup({
-          -- Configuration here, or leave empty to use defaults
-      })
-    end
-  })
+  use 'tpope/vim-surround'
 
   use {
     'norcalli/nvim-colorizer.lua',
@@ -60,6 +52,8 @@ return packer.startup(function(use)
       require'colorizer'.setup()
     end
   }
+
+  use 'lewis6991/impatient.nvim'
 
   use {
     'goolord/alpha-nvim',
