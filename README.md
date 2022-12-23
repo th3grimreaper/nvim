@@ -16,4 +16,5 @@ nvim-surorund
 nvim-colorizer
 lsp-zero
 alpha-nvim
+impatient
 ```
