@@ -16,3 +16,4 @@ Updated neovim configuration using native LSP.
 + lsp-zero  
 + alpha-nvim  
 + impatient  
++ null-ls  
