@@ -2,7 +2,7 @@ require'nvim-treesitter.configs'.setup {
   context_commentstring = {
     enable = true
   },
-  ensure_installed = {'lua', 'html', 'javascript', 'css', 'typescript', 'tsx', 'scss', 'regex'},
+  ensure_installed = {'lua', 'html', 'javascript', 'css', 'typescript', 'tsx', 'scss', 'regex', 'vim', 'help'},
   sync_install = false,
   highlight = {
     enable = true,
