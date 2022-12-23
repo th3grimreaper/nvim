@@ -7,6 +7,7 @@ Updated neovim configuration using native LSP.
 + onedark  
 + undotree  
 + vim-vinegar  
++ nvim-web-devicons
 + Comment  
 + nvim-ts-context-commentstring  
 + nvim-autopairs  
