@@ -1,7 +1,6 @@
 # nvim
 Updated neovim configuration using native LSP.  
 **Plugins Included:**
-```
 *packer
 *telescope
 *onedark
@@ -17,4 +16,3 @@ Updated neovim configuration using native LSP.
 *lsp-zero
 *alpha-nvim
 *impatient
-```
