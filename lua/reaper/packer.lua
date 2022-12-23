@@ -31,6 +31,7 @@ return packer.startup(function(use)
   use 'navarasu/onedark.nvim'
   use 'mbbill/undotree'
   use 'tpope/vim-vinegar'
+  use 'jose-elias-alvarez/null-ls.nvim'
   use {
     'numToStr/Comment.nvim',
     config = function ()
