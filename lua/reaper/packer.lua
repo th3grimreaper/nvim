@@ -16,6 +16,8 @@ if not status_ok then
 	return
 end
 
+local packer_bootstrap = ensure_packer()
+
 return packer.startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'

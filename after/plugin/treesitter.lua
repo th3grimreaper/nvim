@@ -13,5 +13,6 @@ require'nvim-treesitter.configs'.setup {
     extended_mode = true,
     max_file_lines = nil,
     disable = {'help'},
-  }
+  },
+  defaults = { file_ignore_patterns = { "node_modules" }}
 }
