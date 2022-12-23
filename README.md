@@ -2,6 +2,7 @@
 Updated neovim configuration using native LSP.  
 **Plugins Included:**  
 + packer  
++ treesitter  
 + telescope  
 + onedark  
 + undotree  
@@ -11,7 +12,7 @@ Updated neovim configuration using native LSP.
 + nvim-autopairs  
 + indent-blankline  
 + nvim-ts-rainbow  
-+ nvim-surorund  
++ nvim-surround  
 + nvim-colorizer  
 + lsp-zero  
 + alpha-nvim  
