@@ -56,23 +56,22 @@ return packer.startup(function(use)
       require'alpha'.setup(require'alpha.themes.dashboard'.config)
      end
   }
-  use { "hrsh7th/nvim-cmp" }
-  use { "hrsh7th/cmp-buffer" }
-  use { "hrsh7th/cmp-path" }
-  use { "saadparwaiz1/cmp_luasnip" }
-  use { "hrsh7th/cmp-nvim-lsp" }
-  use { "hrsh7th/cmp-nvim-lua" }
-
-	-- Snippets
-  use { "L3MON4D3/LuaSnip" }
-  use { "rafamadriz/friendly-snippets" }
-
   --LSP 
   use {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
   }
+  use { "hrsh7th/nvim-cmp" }
+  use { "hrsh7th/cmp-buffer" }
+  use { "hrsh7th/cmp-path" }
+  use { "saadparwaiz1/cmp_luasnip" }
+  use { "hrsh7th/cmp-nvim-lsp" }
+  use { "hrsh7th/cmp-nvim-lua" }
+	-- Snippets
+  use { "L3MON4D3/LuaSnip" }
+  use { "rafamadriz/friendly-snippets" }
+
 
   if packer_bootstrap then
     require('packer').sync()
