@@ -56,6 +56,7 @@ return packer.startup(function(use)
       require'alpha'.setup(require'alpha.themes.dashboard'.config)
      end
   }
+  use 'olexsmir/gopher.nvim'
   --LSP 
   use {
     "williamboman/mason.nvim",

@@ -25,6 +25,11 @@ cmp.setup({
     { name = 'buffer' },
     { name = 'path' },
   }),
+  performance = {
+    trigger_debounce_time = 500,
+    throttle = 550,
+    fetching_timeout = 80,
+  },
   formatting = {
     fields = { "abbr", "menu", "kind" },
     format = function(entry, vim_item)
