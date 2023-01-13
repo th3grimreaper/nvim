@@ -72,6 +72,7 @@ return packer.startup(function(use)
   use { "L3MON4D3/LuaSnip" }
   use { "rafamadriz/friendly-snippets" }
 
+  use 'olexsmir/gopher.nvim'
 
   if packer_bootstrap then
     require('packer').sync()

@@ -21,3 +21,4 @@ Updated neovim configuration using native LSP.
 - alpha-nvim
 - impatient
 - null-ls
+- gopher
