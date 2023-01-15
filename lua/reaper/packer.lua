@@ -44,7 +44,11 @@ return packer.startup(function(use)
   use 'lukas-reineke/indent-blankline.nvim'
   use 'p00f/nvim-ts-rainbow'
   use 'tpope/vim-surround'
-  use 'norcalli/nvim-colorizer.lua'
+  use {'norcalli/nvim-colorizer.lua',
+        function()
+          require 'colorizer'.setup()
+        end
+      }
   use 'goolord/alpha-nvim'
   --LSP 
   use {
