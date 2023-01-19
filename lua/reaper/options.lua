@@ -9,7 +9,7 @@ set.undofile = true
 set.cursorline = true
 set.cursorcolumn = true
 set.swapfile = false
-set.hlsearch = false
+set.hlsearch = true
 set.splitright = true
 set.splitbelow = true
 
