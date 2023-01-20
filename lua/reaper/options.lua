@@ -12,6 +12,7 @@ set.swapfile = false
 set.hlsearch = true
 set.splitright = true
 set.splitbelow = true
+set.laststatus = 3
 
 --vinegar hide dot files
 vim.cmd [[
