@@ -11,10 +11,7 @@ local sources = {
     PRETTIERD_DEFAULT_CONFIG = vim.fn.expand("~/.config/nvim/.prettierrc.json"),
     },
  }),
- diagnostics.eslint_d.with({
-   filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
-   extra_args = { "-f", "json", "--stdin", "--stdin-filename", "$FILENAME" },
- }),
+ diagnostics.eslint_d,
  codeactions.eslint_d.with({
    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
     extra_args = { "-f", "json", "--stdin", "--stdin-filename", "$FILENAME" },
