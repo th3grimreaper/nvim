@@ -2,6 +2,7 @@ local null_ls = require("null-ls")
 
 local formatting = null_ls.builtins.formatting
 local codeactions = null_ls.builtins.code_actions
+local diagnostics = null_ls.builtins.diagnostics
 
 local sources = {
  formatting.prettierd.with({
@@ -9,6 +10,10 @@ local sources = {
    env = {
     PRETTIERD_DEFAULT_CONFIG = vim.fn.expand("~/.config/nvim/.prettierrc.json"),
     },
+ }),
+ diagnostics.eslint_d.with({
+   filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
+   extra_args = { "-f", "json", "--stdin", "--stdin-filename", "$FILENAME" },
  }),
  codeactions.eslint_d.with({
    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
