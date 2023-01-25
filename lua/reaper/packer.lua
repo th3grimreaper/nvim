@@ -34,7 +34,6 @@ return packer.startup(function(use)
   use 'tpope/vim-vinegar'
   use 'jose-elias-alvarez/null-ls.nvim'
   use 'numToStr/Comment.nvim'
-  
   use 'JoosepAlviste/nvim-ts-context-commentstring'
   use 'windwp/nvim-autopairs'
   use 'lukas-reineke/indent-blankline.nvim'
