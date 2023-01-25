@@ -33,22 +33,14 @@ return packer.startup(function(use)
   use 'mbbill/undotree'
   use 'tpope/vim-vinegar'
   use 'jose-elias-alvarez/null-ls.nvim'
-  use {
-    'numToStr/Comment.nvim',
-    config = function ()
-      require('Comment').setup()
-    end
-  }
+  use 'numToStr/Comment.nvim'
+  
   use 'JoosepAlviste/nvim-ts-context-commentstring'
   use 'windwp/nvim-autopairs'
   use 'lukas-reineke/indent-blankline.nvim'
   use 'p00f/nvim-ts-rainbow'
   use 'tpope/vim-surround'
-  use {'norcalli/nvim-colorizer.lua',
-        function()
-          require 'colorizer'.setup()
-        end
-      }
+  use 'norcalli/nvim-colorizer.lua'
   use 'goolord/alpha-nvim'
   --LSP 
   use {
