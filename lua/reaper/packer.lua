@@ -37,9 +37,9 @@ return packer.startup(function(use)
   use 'JoosepAlviste/nvim-ts-context-commentstring'
   use 'windwp/nvim-autopairs'
   use 'lukas-reineke/indent-blankline.nvim'
+  use 'NvChad/nvim-colorizer.lua'
   use 'p00f/nvim-ts-rainbow'
   use 'tpope/vim-surround'
-  use 'norcalli/nvim-colorizer.lua'
   use 'goolord/alpha-nvim'
   --LSP 
   use {
