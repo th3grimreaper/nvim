@@ -37,7 +37,7 @@ local on_attach = function(client, bufnr)
   vim.keymap.set('n', '<space>lf', ":lua vim.lsp.buf.format({ async = true })<CR>", bufopts)
   vim.keymap.set('n', '<space>td', "<cmd>Telescope diagnostics<CR>", bufopts)
   vim.keymap.set('n', '<space>dh', "<cmd>DiffviewFileHistory<CR>", bufopts)
-  vim.keymap.set('n', '<space>dhc', "<cmd>DiffviewFileHistory %<CR>", bufopts)
+  vim.keymap.set('n', '<space>dch', "<cmd>DiffviewFileHistory %<CR>", bufopts)
 end
 
 local lsp_flags = {
