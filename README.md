@@ -5,6 +5,7 @@ Updated neovim configuration using native LSP.
 
 - packer
 - treesitter
+- diffview
 - telescope
 - gruvbox-material
 - undotree

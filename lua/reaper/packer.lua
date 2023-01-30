@@ -41,6 +41,7 @@ return packer.startup(function(use)
   use 'p00f/nvim-ts-rainbow'
   use 'tpope/vim-surround'
   use 'goolord/alpha-nvim'
+  use 'sindrets/diffview.nvim'
   --LSP 
   use {
     "williamboman/mason.nvim",
