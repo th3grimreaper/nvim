@@ -4,6 +4,7 @@ Updated neovim configuration using native LSP.
 **Plugins Included:**
 
 - packer
+- mini.statusline
 - treesitter
 - diffview
 - telescope
