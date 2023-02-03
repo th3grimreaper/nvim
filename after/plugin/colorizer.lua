@@ -1,5 +1,7 @@
 require("colorizer").setup {
     filetypes = {
+      'yaml',
+      'markdown',
       'html',
       'css',
       'scss',
