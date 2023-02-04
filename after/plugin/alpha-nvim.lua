@@ -1,3 +1,8 @@
+local status_ok, alpha = pcall(require, "alpha")
+if not status_ok then
+	return
+end
+
 Alpha = require("alpha")
 local keymap = vim.api.nvim_set_keymap
 keymap('n', '<c-n>', ':Alpha<cr>', {noremap = true})
@@ -31,3 +36,7 @@ dashboard.section.buttons.val = {
 	dashboard.button("v", "  Configuration", ":e $MYVIMRC <CR>"),
 	dashboard.button("q", "  Quit Neovim", ":qa<CR>"),
 }
+
+dashboard.opts.opts.noautocmd = true
+--vim.cmd[[autocmd User AlphaReady echo 'ready']]
+alpha.setup(dashboard.opts)
